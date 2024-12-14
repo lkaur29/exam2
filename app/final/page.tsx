@@ -23,7 +23,7 @@ export default function Page() {
         </select>
         <br />
 
-        <div className="ml-6 mt-6">
+        <div className="ml-2 mt-2">
         <input type="radio" id="html" name="fav_language" value="HTML" />
         <label htmlFor="html">HTML</label><br />
          <input type="radio" id="css" name="fav_language" value="CSS" />
