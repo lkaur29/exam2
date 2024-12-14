@@ -7,13 +7,13 @@ export default function Page() {
         <label htmlFor="product" className='ml-5'>Product Description</label>
         <input type="text" name="product" id="product" className="ml-5 text-black bg-blue-400"/>
         <br />
-        <label htmlFor="cars" className="mxl-5">Choose a car:</label>
+        <label htmlFor="bunnies" className="mxl-5">Choose a Bunny:</label>
     
-        <select name="cars" id="cars">
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="mercedes">Mercedes</option>
-        <option value="audi">Audi</option>
+        <select name="bunnies" id="bunnies">
+        <option value="HollandHop">Holland Hop</option>
+        <option value="AmericanFuzzyHop">American Fuzzy Hop</option>
+        <option value="MinniLop">Minni Lop</option>
+        <option value="CashmereLop">Cashmere Lop</option>
         </select>
      
         <br />
