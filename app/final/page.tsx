@@ -6,17 +6,18 @@ export default function Page() {
       <form>
         <label htmlFor="product" className='ml-5'>Product Description</label>
         <input type="text" name="product" id="product" className="ml-5 text-black bg-blue-400"/>
+
         <br />
         <label htmlFor="bunnies" className="mxl-5">Choose a Bunny:</label>
-    
+        <br />
+
         <select name="bunnies" id="bunnies">
         <option value="HollandHop">Holland Hop</option>
         <option value="AmericanFuzzyHop">American Fuzzy Hop</option>
         <option value="MinniLop">Minni Lop</option>
         <option value="CashmereLop">Cashmere Lop</option>
         </select>
-     
-        <br />
+        
         
         <div className="ml-6 mt-6">
         <input type="radio" id="html" name="fav_language" value="HTML" />
