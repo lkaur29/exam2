@@ -7,7 +7,7 @@ export default function Page() {
 
       <form>
         <label htmlFor="product" className='ml-5'>Product Description</label>
-        <input type="text" name="product" id="product" className="ml-5 text-black bg-blue-400"/>
+        <input type="text" name="product" id="product" className="ml-5 text-black bg-purple-400"/>
 
         <br />
 
