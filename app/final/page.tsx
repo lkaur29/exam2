@@ -2,10 +2,11 @@ export default function Page() {
     return (
       <>
       <h1 className="text-3xl mr-5"> Final Exam</h1>
-     
+       <br />
       <form>
         <label htmlFor="product" className='ml-5'>Product Description</label>
         <input type="text" name="product" id="product" className="ml-5 text-black bg-blue-400"/>
+        <br />
 
         <br />
         <label htmlFor="bunnies" className="mxl-5">Choose a Bunny:</label>
