@@ -28,12 +28,12 @@ export default function Page() {
         </div>
 
         <div className="ml-2 mt-2">
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-        <label htmlFor="vehicle1"> I have a bike</label><br />
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
-        <label htmlFor="vehicle2"> I have a car</label><br />
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Car" />
-        <label htmlFor="vehicle2"> I have a boat</label><br />
+        <input type="checkbox" id="q1" name="q1" value="Food" />
+        <label htmlFor="q1"> Questions regarding food</label><br />
+        <input type="checkbox" id="q2" name="q2" value="Items" />
+        <label htmlFor="q2"> Questions regarding necessary items</label><br />
+        <input type="checkbox" id="q3" name="q3" value="Other" />
+        <label htmlFor="q2"> Other </label><br />
         </div>
         
         <br/ >
