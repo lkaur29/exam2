@@ -3,14 +3,19 @@ export default function Page() {
       <>
       <h1 className="text-3xl mr-5"> Final Exam</h1>
        <br />
+
+
       <form>
         <label htmlFor="product" className='ml-5'>Product Description</label>
         <input type="text" name="product" id="product" className="ml-5 text-black bg-blue-400"/>
+        
         <br />
+
 
         <br />
         <label htmlFor="bunnies" className="mxl-5">Choose a Bunny:</label>
         <br />
+
 
         <select name="bunnies" id="bunnies">
         <option value="HollandHop">Holland Hop</option>
@@ -19,7 +24,7 @@ export default function Page() {
         <option value="CashmereLop">Cashmere Lop</option>
         </select>
         
-        
+
         <div className="ml-6 mt-6">
         <input type="radio" id="html" name="fav_language" value="HTML" />
         <label htmlFor="html">HTML</label><br />
@@ -28,6 +33,7 @@ export default function Page() {
          <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
          <label htmlFor="javascript">JavaScript</label>
         </div>
+
 
         <div className="ml-2 mt-2">
         <input type="checkbox" id="q1" name="q1" value="Food" />
