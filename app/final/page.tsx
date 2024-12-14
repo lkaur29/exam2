@@ -24,12 +24,12 @@ export default function Page() {
         <br />
 
         <div className="ml-2 mt-2">
-        <input type="radio" id="html" name="fav_language" value="HTML" />
-        <label htmlFor="html">HTML</label><br />
-         <input type="radio" id="css" name="fav_language" value="CSS" />
-         <label htmlFor="css">CSS</label><br />
-         <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
-         <label htmlFor="javascript">JavaScript</label>
+        <input type="radio" id="natural" name="fav_language" value="Natural" />
+        <label htmlFor="natural">Natural</label><br />
+         <input type="radio" id="crossbreed" name="fav_language" value="CrossBreed" />
+         <label htmlFor="crossbreed">CrossBread</label><br />
+         <input type="radio" id="mixedbreed" name="fav_language" value="MixedBreed" />
+         <label htmlFor="mixedbreed">Mixed Breed</label>
         </div>
 
 
