@@ -15,7 +15,7 @@ export default function Page() {
         <br />
         <label htmlFor="bunnies" className="mxl-5">Choose a Bunny:</label>
       
-        <select name="bunnies" id="bunnies">
+        <select name="bunnies" id="bunnies" className="ml-2">
         <option value="HollandHop">Holland Hop</option>
         <option value="AmericanFuzzyHop">American Fuzzy Hop</option>
         <option value="MinniLop">Minni Lop</option>
