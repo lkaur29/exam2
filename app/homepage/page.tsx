@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-Date: 12/9/2024
+Date: 12/16/2024
 <h1 className='my-4 text-center text-2xl text-pink-700'>Loveable Bunnies</h1>
 
 <h2 className='my-6 text-center'><i>Adopt and Care For Bunnies!</i></h2>
