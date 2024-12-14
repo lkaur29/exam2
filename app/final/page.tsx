@@ -5,6 +5,7 @@ export default function Page() {
      
       <form>
         <label htmlFor="product" className='ml-5'>Product Description</label>
+        <input type="text" name="product" id="product" className="ml-5 text-black bg-blue-400"/>
         <br />
         <label htmlFor="cars" className="mxl-5">Choose a car:</label>
     
@@ -24,7 +25,6 @@ export default function Page() {
          <label htmlFor="css">CSS</label><br />
          <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
          <label htmlFor="javascript">JavaScript</label>
-        <input type="text" name="product" id="product" className="ml-5 text-black bg-blue-400"/>
         </div>
 
         <div className="ml-2 mt-2">
